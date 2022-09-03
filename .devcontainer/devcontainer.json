@@ -5,7 +5,7 @@
 		"context": ".."
 	},
 
-	"postCreateCommand": "bash .devcontainer/post-create.sh",
+	"postCreateCommand": "bash -i .devcontainer/post-create.sh",
 
 	"remoteUser": "vscode",
 
