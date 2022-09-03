@@ -1,0 +1,16 @@
+{
+	"name": "Python & Torch",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+
+	"postCreateCommand": "bash .devcontainer/post-create.sh",
+
+	"remoteUser": "vscode",
+
+	"extensions": [
+		"ms-python.python",
+		"ms-toolsai.jupyter"
+	]
+}
