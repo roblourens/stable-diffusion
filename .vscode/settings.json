@@ -2,6 +2,8 @@
     "python.analysis.diagnosticSeverityOverrides": {
         "reportOptionalMemberAccess": "none",
         "reportUnusedExpression": "none",
-        "reportMissingImports": "none"
+        "reportMissingImports": "none",
+        "reportUndefinedVariable": "none",
+        "reportMissingModuleSource": "none",
     }
 }
